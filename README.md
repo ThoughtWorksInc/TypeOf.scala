@@ -1,5 +1,7 @@
 # TypeOf.scala
-Create types from expressions
+Create types from expressions.
+
+Note this library has been [merged into Shapeless](https://github.com/milessabin/shapeless/pull/692)
 
 ``` scala
 type TypeOfToString = TypeOf.`math.random.toString`.type
